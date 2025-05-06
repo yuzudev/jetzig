@@ -7,8 +7,6 @@ const zmpl_build = @import("zmpl");
 const Environment = enum { development, testing, production };
 const builtin = @import("builtin");
 
-const use_llvm_default = builtin.os.tag != .linux;
-
 pub fn build(b: *std.Build) !void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
@@ -39,7 +37,6 @@ pub fn build(b: *std.Build) !void {
         .{
             .target = target,
             .optimize = optimize,
-            .use_llvm = b.option(bool, "use_llvm", "Use LLVM") orelse use_llvm_default,
             .zmpl_templates_paths = templates_paths,
             .zmpl_auto_build = false,
             .zmpl_markdown_fragments = try generateMarkdownFragments(b),
