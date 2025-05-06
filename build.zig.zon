@@ -28,6 +28,14 @@
             .url = "https://github.com/jetzig-framework/jetquery/archive/ed6b42e196573365057d8e5d17ff85b456b11e68.tar.gz",
             .hash = "jetquery-0.0.0-TNf3zs24BgCYXZZvMKUbEMb6hRfrMmYHJgHTNGWZM5B1",
         },
+        .zmd = .{
+            .url = "git+https://github.com/yuzudev/zmd#45dda05a705a446fca6e6477b2392bca28032a5e",
+            .hash = "zmd-0.0.0-H8YV7RHhAADcmLL73TL7rRoB9t3s25mul7HBD4A6ku4X",
+        },
+        .jetcommon = .{
+            .url = "git+https://github.com/yuzudev/jetcommon#d6baec9aa90224ff8b48bdc9bf647c850607f614",
+            .hash = "jetcommon-0.1.0-jPY_DRFHAAC4O98QEuDDea3lp2egNxbE1pTItVJK-86_",
+        },
     },
 
     .paths = .{
