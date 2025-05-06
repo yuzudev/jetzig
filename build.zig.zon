@@ -4,14 +4,6 @@
     .fingerprint = 0x93ad8bfa2d209022,
     .minimum_zig_version = "0.15.0-dev.355+206bd1ced",
     .dependencies = .{
-        .jetcommon = .{
-            .url = "git+https://github.com/yuzudev/jetcommon#d6baec9aa90224ff8b48bdc9bf647c850607f614",
-            .hash = "jetcommon-0.1.0-jPY_DRFHAAC4O98QEuDDea3lp2egNxbE1pTItVJK-86_",
-        },
-        .zmd = .{
-            .url = "git+https://github.com/yuzudev/zmd#45dda05a705a446fca6e6477b2392bca28032a5e",
-            .hash = "zmd-0.0.0-H8YV7RHhAADcmLL73TL7rRoB9t3s25mul7HBD4A6ku4X",
-        },
         .smtp_client = .{
             .url = "https://github.com/karlseguin/smtp_client.zig/archive/5163c66cc42cdd93176a6b1cad45f3db3a291a6a.tar.gz",
             .hash = "smtp_client-0.0.1-AAAAAIJkAQCngHtRYVUMsMuncmicSHK_7ugwWibDzQ4S",
@@ -25,8 +17,8 @@
             .hash = "jetkv-0.0.0-zCv0fmCGAgCyYqwHjk0P5KrYVRew1MJAtbtAcIO-WPpT",
         },
         .zmpl = .{
-            .url = "git+https://github.com/yuzudev/zmpl#582012fdcce73bd4bd478ad4cf08127ce49f2f34",
-            .hash = "zmpl-0.0.1-SYFGBiGZAwBwjN_8pnYMgGnPgyS6zo-Jk18-QK-xE9ww",
+            .url = "git+https://github.com/yuzudev/zmpl#f2126efde6c6ee96ae1ed21a16861cd1958bf272",
+            .hash = "zmpl-0.0.1-SYFGBvmYAwChL4i0vrfl_8KMHq-1FETnWZiocXTROyyd",
         },
         .httpz = .{
             .url = "https://github.com/karlseguin/http.zig/archive/37d7cb9819b804ade5f4b974b82f8dd0622225ed.tar.gz",
